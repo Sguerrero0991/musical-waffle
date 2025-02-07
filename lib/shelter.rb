@@ -6,4 +6,10 @@ class Shelter
         @pets = []
     end
     
+    def add_pet(pet_name)
+        @pets << pet_name
+    end
+
+    def pet_name.each |name|
+
 end
